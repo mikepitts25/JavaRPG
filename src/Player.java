@@ -5,11 +5,36 @@
  * Purpose: Player character class for RPG Style game...
  */
 
+import java.util.Scanner;
+
 public class Player {
-  public Player(String firstName, String lastName) {
+  // player fields
+  private String firstName;
+  private String lastName;
+  private int gender = 1;
+  private int level = 1;
+  private int expTotal = 0;
+  private int strengthLevel = 10;
+  private int energyLevel = 100;
+  private int magicForce = 100;
+  private int lifeForce = 100;
+
+  public Player() { //default constructor
+  }
+
+  public Player(String firstName, String lastName, int gender) { //constructor with name fields
     this.firstName = firstName;
     this.lastName = lastName;
-  } //constructor with names
+    this.gender = gender;
+  }
+
+  public int getGender() {
+    return gender;
+  }
+
+  public void setGender(int gender) {
+    this.gender = gender;
+  }
 
   public String getFirstName() {
     return firstName;
@@ -35,11 +60,11 @@ public class Player {
     this.level = level;
   }
 
-  public double getExpTotal() {
+  public int getExpTotal() {
     return expTotal;
   }
 
-  public void setExpTotal(double expTotal) {
+  public void setExpTotal(int expTotal) {
     this.expTotal = expTotal;
   }
 
@@ -75,15 +100,19 @@ public class Player {
     this.lifeForce = lifeForce;
   }
 
-  private String firstName;
-  private String lastName;
-  private int level;
-  private double expTotal;
-  private int strengthLevel;
-  private int energyLevel;
-  private int magicForce;
-  private int lifeForce;
+  public void chooseClass(){
+    int classChoice = 0;
+    Scanner stdin = new Scanner(System.in);
+    System.out.print("Choose your class: \n" +
+        "(1) Warrior \n" +
+        "(2) Rogue \n" +
+        "(3) Wizard \n" +
+        "(4) Archer ");
 
-  public Player() { //default constructor
+    classChoice = stdin.nextInt();
+    stdin.close();
+
   }
+
+
 }
