@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfe4c5d2-9257-4e64-a92d-3a9b1b536d28" name="Default" comment="">
+    <list default="true" id="cfe4c5d2-9257-4e64-a92d-3a9b1b536d28" name="Default" comment="Continued building out the Player class.">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaRPG/JavaRPG.class" afterPath="$PROJECT_DIR$/out/production/JavaRPG/JavaRPG.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/JavaRPG/Player.class" afterPath="$PROJECT_DIR$/out/production/JavaRPG/Player.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/JavaRPG.java" afterPath="$PROJECT_DIR$/src/JavaRPG.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Player.java" afterPath="$PROJECT_DIR$/src/Player.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -548,12 +548,20 @@
       <option name="presentableId" value="Default" />
       <updated>1482988591110</updated>
       <workItem from="1482988597581" duration="5049000" />
-      <workItem from="1483117650846" duration="10655000" />
+      <workItem from="1483117650846" duration="11013000" />
     </task>
+    <task id="LOCAL-00001" summary="Continued building out the Player class.">
+      <created>1483138210320</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1483138210320</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15704000" />
+    <option name="totallyTimeSpent" value="16062000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -597,7 +605,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Continued building out the Player class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Continued building out the Player class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
