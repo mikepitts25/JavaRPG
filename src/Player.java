@@ -21,44 +21,44 @@ public class Player {
   private int magicForce = 100;
   private int lifeForce = 100;
 
-  public Player() { //default constructor
+  Player() { //default constructor
   }
 
   //Getters and Setters
 
-  public String getClassName() {
+  private String getClassName() {
     return className;
   }
 
-  public void setClassName(String className) {
+  private void setClassName(String className) {
     this.className = className;
   }
 
-  public String getGender() {
+  private String getGender() {
     return gender;
   }
 
-  public void setGender(String gender) {
+  private void setGender(String gender) {
     this.gender = gender;
   }
 
-  public String getFirstName() {
+  private String getFirstName() {
     return firstName;
   }
 
-  public void setFirstName(String firstName) {
+  private void setFirstName(String firstName) {
     this.firstName = firstName;
   }
 
-  public String getLastName() {
+  private String getLastName() {
     return lastName;
   }
 
-  public void setLastName(String lastName) {
+  private void setLastName(String lastName) {
     this.lastName = lastName;
   }
 
-  public int getLevel() {
+  private int getLevel() {
     return level;
   }
 
@@ -66,7 +66,7 @@ public class Player {
     this.level = level;
   }
 
-  public int getExpTotal() {
+  private int getExpTotal() {
     return expTotal;
   }
 
@@ -74,15 +74,15 @@ public class Player {
     this.expTotal = expTotal;
   }
 
-  public int getStrengthLevel() {
+  private int getStrengthLevel() {
     return strengthLevel;
   }
 
-  public void setStrengthLevel(int strengthLevel) {
+  private void setStrengthLevel(int strengthLevel) {
     this.strengthLevel = strengthLevel;
   }
 
-  public int getEnergyLevel() {
+  private int getEnergyLevel() {
     return energyLevel;
   }
 
@@ -90,7 +90,7 @@ public class Player {
     this.energyLevel = energyLevel;
   }
 
-  public int getMagicForce() {
+  private int getMagicForce() {
     return magicForce;
   }
 
@@ -98,15 +98,15 @@ public class Player {
     this.magicForce = magicForce;
   }
 
-  public int getLifeForce() {
+  private int getLifeForce() {
     return lifeForce;
   }
 
-  public void setLifeForce(int lifeForce) {
+  private void setLifeForce(int lifeForce) {
     this.lifeForce = lifeForce;
   }
 
-  public void chooseClass(){
+  private void chooseClass(){
     int classChoice;
     boolean choose = true;
     Scanner stdin = new Scanner(System.in);
@@ -161,7 +161,7 @@ public class Player {
 
   }
 
-  public void chooseGender(){
+  private void chooseGender(){
     int genderChoice;
     boolean choose = true;
     Scanner stdin = new Scanner(System.in);
@@ -205,7 +205,7 @@ public class Player {
 
   }
 
-  public void strLvl(){
+  private void strLvl(){
     boolean again = true;
     Random rand = new Random();
     int strLvl;
@@ -246,7 +246,7 @@ public class Player {
 
   }
 
-  public void playerCreate(){
+  void playerCreate(){
     String fName;
     String lName;
     Scanner stdin = new Scanner(System.in);
@@ -267,7 +267,7 @@ public class Player {
 
   }
 
-  public void getStats(){
+  void getStats(){
     System.out.printf("Character Name: %s %s\n" +
         "Level: %d\n" +
         "Experience: %d\n" +
